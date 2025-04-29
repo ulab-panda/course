@@ -1,51 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-
-  <!-- Replace with your own title and description. -->
-  <title>Awesome Docsify Site</title>
-  <meta name="description" content="An awesome docsify site for publishing some content on the web.">
-
-  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-
+  <meta charset="UTF-8">
+  <title>Undergraduate Laboratory at Berkeley, Physics and Astronomy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <style>
+    nav.app-nav {
+      background-color: #1e1e1e;
+    }
+    .app-name {
+      font-weight: bold;
+    }
+  </style>
 </head>
-
 <body>
-  <div id="app"></div>
+  <div id="app">Loading...</div>
 
   <script>
-    // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
-      name: 'Simple Docsify Template',
-
-      // Sidebar Configuration
-      auto2top: true,
+      name: 'Undergraduate Laboratory at Berkeley',
+      repo: '',
       loadSidebar: true,
-      maxLevel: 0,
-      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
-      subMaxLevel: 3,
-
-      // Search Plugin Configuration
-      search: {
-        placeholder: 'Type to search',
-        noData: 'No matches found.',
-        // Headline depth, 1 - 6
-        depth: 2,
+      subMaxLevel: 2,
+      loadNavbar: false,
+      themeColor: '#42b983',
+      search: 'auto',
+      darkMode: {
+        dark: true,
+        light: false
       }
-    };
+    }
   </script>
 
-  <!-- Required -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-
-  <!-- Recommended -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/docsify-themeable/main.min.js"></script>
 </body>
 </html>
+
+---
+
+<!-- README.md -->
+# Undergraduate Laboratory at Berkeley
+### Physics and Astronomy Division
+
+Welcome to the ULAB Physics and Astronomy Division!
+
+Navigate through the sidebar to view our calendar, policies, staff, resources, and projects.
+
+---
+
+<!-- sidebar.md -->
+* [Home](/)
+* [Calendar](calendar.md)
+* [Policies](policies.md)
+* [Staff](staff.md)
+* [Resources](resources.md)
+* Homeworks
+  * [Homework List](homeworks.md)
+* [Final Project](final_project.md)
+
+---
+
+<!-- calendar.md -->
+# Calendar
+_Work in progress_
+
+---
+
+<!-- policies.md -->
+# Policies
+_Work in progress_
+
+---
+
+<!-- staff.md -->
+# Staff
+_Work in progress_
+
+---
+
+<!-- resources.md -->
+# Resources
+_Work in progress_
+
+---
+
+<!-- homeworks.md -->
+# Homeworks
+_Work in progress_
+
+---
+
+<!-- final_project.md -->
+# Final Project
+_Work in progress_
