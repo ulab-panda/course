@@ -1,0 +1,7 @@
+* [About](/)
+* [Syllabus](syllabus.md)
+* [Staff](staff.md)
+* [Projects](projects.md)
+* [Join!](join.md)
+* [Mentee FAQ](menteefaq.md)
+* [Mentor FAQ](mentorfaq.md)
