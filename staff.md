@@ -9,7 +9,7 @@ For logistics or questions, please contact us at **[physics@ulab.berkeley.edu](m
 <table>
 <tr>
   <td align="center" width="200">
-    <img src="headshots/saahit.png" width="100" style="border-radius: 50%;" alt="Saahit Mogan"><br>
+    <img src="headshots/jordan.png" width="100" style="border-radius: 50%;" alt="Saahit Mogan"><br>
     <strong>Saahit Mogan</strong>  
     <br><code>Director</code> <code>Staff Email Access</code>
     <br><a href="mailto:smogan@berkeley.edu">smogan@berkeley.edu</a>

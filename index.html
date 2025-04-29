@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
-    /* Optional: make logo match sidebar styli testng */
+    /* Optional: make logo match sidebar styling */
     #custom-logo {
       padding: 10px 20px;
     }
@@ -21,9 +21,12 @@
 </head>
 <body>
 
-  <!-- ULAB logo above sidebar -->
-  <div id="custom-logo">
-    <img src="ulab_nav_logo.png" alt="ULAB Logo" />
+  <!-- ULAB logo and title -->
+  <div id="custom-logo-title" style="display: flex; align-items: center; padding: 10px 20px;">
+    <img src="ulab.png" alt="ULAB Logo" style="width: 50px; height: 50px; border-radius: 6px; margin-right: 10px;">
+    <div style="font-weight: bold; font-size: 18px; line-height: 1.2;">
+      ULAB<br>Physics and Astronomy
+    </div>
   </div>
 
   <!-- Docsify app -->
@@ -31,7 +34,7 @@
 
   <script>
     window.$docsify = {
-      name: '',
+      name: 'ULAB Physics & Astronomy',
       repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
@@ -42,4 +45,5 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
+
 </html>

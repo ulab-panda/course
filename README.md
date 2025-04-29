@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img src="logo_physics.png" width="150" alt="ULAB Physics Logo">
 </p>
@@ -12,7 +14,7 @@ Empowering undergraduates in research, innovation, and scientific discovery.
 
 ---
 
-# 📚 General Info
+## 📚 General Info
 
 - **Meeting Times**: Mondays and Wednesdays, 7–8 PM, Campbell Hall 131
 - **Missed Workshop**: [Fill out this form](#) <!-- Replace # with real link -->
